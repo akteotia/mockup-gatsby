@@ -7,11 +7,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatsby + Node.js (TypeScript) API',
-        short_name: 'Gatsby + Node.js (TypeScript)',
-        start_url: '/',
-        icon: 'src/images/gatsby-icon.png',
-      },
+        // Specify the URL of the WordPress source
+        baseUrl: `parul.101artwork.com`,
+        protocol: `http`,
+        // Indicates if a site is hosted on WordPress.com
+        hostingWPCOM: false,
+        // Specify which URL structures to fetch
+        includedRoutes: [
+          '**/posts',
+          '**/tags',
+          '**/categories'
+        ]
+    },
     },
   ],
 };
