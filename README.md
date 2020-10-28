@@ -26,7 +26,7 @@ https://www.facebook.com/eymockup/
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/gatsby)
 
-_Live Example: https://gatsby.now-examples.now.sh_
+_Live Example: https://mockupgatsby.vercel.app/
 
 ### How We Created This Example
 
